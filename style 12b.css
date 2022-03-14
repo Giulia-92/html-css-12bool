@@ -1,5 +1,13 @@
-.debug{
+
+.box, .box1{
+    min-height: 40px;
     border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(33, 18, 167);
-    
+    background-color: rgb(88, 140, 238);
+    text-align: center;
+}
+section{
+    margin-top: 20px;
+}
+.box1{
+background-color: aqua;
 }

@@ -5,7 +5,7 @@
 }
 
 .container{
-    width:100%;
+    width:1170px;
     margin: auto;
 }
 .row{
@@ -13,11 +13,9 @@
     flex-direction: row;
     flex-wrap:wrap;
 }
-.col{
-    flex-grow:0;
-    flex-shrink: 1;
-    flex-basis:25%;
-    max-width: 25%;
+[col*="col-sx"]{
+    flex:0 0 auto
+
 }
 .col-sx-1{
 width: calc((100% / 12)*1);
