@@ -1,13 +1,16 @@
 
-.box, .box1{
+.box{
     min-height: 40px;
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(88, 140, 238);
     text-align: center;
+    padding: 5%;
 }
 section{
     margin-top: 20px;
 }
-.box1{
-background-color: aqua;
+
+.box.row div{
+    background-color: aqua;
+   
 }
